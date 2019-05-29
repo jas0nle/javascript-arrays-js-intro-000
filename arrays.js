@@ -20,3 +20,9 @@ function addElementToEndOfArray(array, element) {
   
 }
 
+function destructivelyAddElementToEndOfArray(array, element) {
+  var Array = array;
+  Array.unshift(element);
+  return Array;
+  
+}
