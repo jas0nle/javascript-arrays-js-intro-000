@@ -15,14 +15,14 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
 
 function addElementToEndOfArray(array, element) {
   const Array = [1];
-  Array.unshift(element);
+  Array.push(element);
   return Array;
   
 }
 
 function destructivelyAddElementToEndOfArray(array, element) {
   var Array = array;
-  Array.unshift(element);
+  Array.push(element);
   return Array;
   
 }
