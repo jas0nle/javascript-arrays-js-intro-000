@@ -12,3 +12,7 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
   Array.unshift(element);
   return Array;
 }
+
+function addElementToEndOfArray(array, element) {
+  
+}
