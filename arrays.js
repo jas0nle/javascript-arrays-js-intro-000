@@ -50,6 +50,6 @@ function destructivelyRemoveElementFromEndOfArray(array) {
 
 function removeElementFromEndOfArray(array) {
   var Array = array;
-  Array.slice(0, -2);
+  Array.slice(0, -1);
   return Array;
 }
